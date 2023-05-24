@@ -1,0 +1,12 @@
+{
+  "name": "Local Webpage Proxy",
+  "version": "1.0.0",
+  "slug": "local-webpage-proxy",
+  "description": "Proxy for accessing local network webpages remotely",
+  "url": "https://github.com/your-username/local-webpage-proxy-addon",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "arch": ["amd64", "armv7", "aarch64"]
+}
