@@ -8,5 +8,8 @@
   "boot": "auto",
   "options": {},
   "schema": {},
-  "arch": ["amd64", "armv7", "aarch64"]
+  "arch": ["amd64", "armv7", "aarch64"],
+  "ssl": true,
+  "certfile": "/ssl/fullchain.pem",
+  "keyfile": "/ssl/privkey.pem"
 }
