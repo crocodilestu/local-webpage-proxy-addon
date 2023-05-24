@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "local-webpage-proxy",
   "description": "Proxy for accessing local network webpages remotely",
-  "url": "https://github.com/your-username/local-webpage-proxy-addon",
+  "url": "https://github.com/crocodilestu/local-webpage-proxy-addon",
   "startup": "before",
   "boot": "auto",
   "options": {},
