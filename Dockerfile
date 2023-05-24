@@ -7,8 +7,8 @@ RUN pip3 install flask requests
 
 COPY app.py /app.py
 
-COPY fullchain.pem /ssl/fullchain.pem
+COPY /ssl/fullchain.pem /ssl/fullchain.pem
 
-COPY privkey.pem /ssl/privkey.pem
+COPY /ssl/privkey.pem /ssl/privkey.pem
 
 CMD ["python3", "/app.py"]
